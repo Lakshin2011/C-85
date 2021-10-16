@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("https://i.postimg.cc/KzWwHPcq/racing.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Cars Game</title>
+</head>
+<body onload="add()">
+<center>
+<h1>Cars Game</h1>
+<h1 id="status">
+	Game Status
+</h1>
+<canvas width="800" height="600" id="myCanvas">
+</canvas>
+<h4>
+	<b>NOTE : </b> IF CAR1 NOT MOVING PRESS ARROW KEYS ACCORDING TO DIRECTIONS. IF CAR2 NOT MOVING  PRESS W FOR UP , S FOR DOWN,A FOR LEFT,D FOR RIGHT.
+</h4>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
